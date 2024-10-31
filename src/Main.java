@@ -11,5 +11,13 @@ public class Main {
                 true);
 
         enter1.datos();
+
+        // New employed
+
+        Employed em1 = new Employed("1cero1", "calle 44 # 50-20",30215697,true,
+                "Junito Perez",515522055,"Masculino",2000000);
+
+        em1.datos();
+        em1.employed();
     }
 }
